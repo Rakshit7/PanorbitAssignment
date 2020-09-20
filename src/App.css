@@ -1,38 +1,68 @@
+* {
+  margin: 0;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fdfdfd;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 550px;
+  height: 500px;
+  border-radius: 15px !important;
+  position: relative;
+  padding-top: 8%;
+}
+.card__top {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #545454;
+  background-color: #f6f6f6;
+}
+.card__title {
+  padding-top: 66px;
+  font-size: 19px;
+}
+.card__bottom {
+  height: 80%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #ffffff;
+  padding: 15px;
+  overflow: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__table {
+  height: 370px;
+}
+
+.card__table tr {
+  border-bottom: 1px solid black;
+}
+
+.card__table tr:first-child {
+  border-top: none;
+}
+.card__table tr:last-child {
+  border-bottom: none;
+}
+.card__table td {
+  padding: 0.5rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.app__name {
+  text-decoration: none;
 }

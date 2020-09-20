@@ -1,0 +1,155 @@
+.maindiv {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.profile {
+  width: 100%;
+  height: 25%;
+  padding: 5px;
+}
+
+.profile__text {
+  font-size: 25px;
+}
+
+.profile__titlebar_left {
+  display: flex;
+  flex: 0.8;
+  justify-content: space-between;
+  font-size: 17px;
+  width: 100%;
+  height: 2%;
+}
+
+.profile__titlebar_right {
+  flex: 0.2;
+}
+
+.profile__info {
+  height: 40px;
+  font-size: 17px;
+  background-color: #fdfdfd;
+  color: black;
+  border: none;
+}
+
+.horizontal__line {
+  width: 100%;
+  height: 2px;
+  background-color: brown;
+}
+
+.profile__detail {
+  display: flex;
+  justify-content: space-between;
+}
+.profile__detail__left {
+  align-items: center;
+  flex: 0.4;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.profile__detail__right {
+  flex: 0.6;
+  height: 100%;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.profile__image {
+  margin-left: 160px;
+  height: 160px;
+}
+
+.profile__displayname {
+  margin-left: 165px;
+  height: 50px;
+}
+
+.profile__username {
+  margin-left: 100px;
+  height: 35px;
+}
+
+.profile__email {
+  margin-left: 130px;
+  height: 35px;
+}
+
+.profile__phone {
+  margin-left: 131px;
+  height: 35px;
+}
+
+.profile__website {
+  margin-left: 118px;
+  height: 35px;
+}
+
+.profile__company {
+  margin-left: 165px;
+  margin-top: 20px;
+  height: 35px;
+}
+
+.profile__companyname {
+  margin-left: 130px;
+  height: 35px;
+}
+
+.profile__catchphrase {
+  margin-left: 80px;
+  height: 35px;
+}
+
+.profile__bs {
+  margin-left: 157px;
+  height: 35px;
+}
+
+.vl {
+  margin-top: 10px;
+  border-left: 1px solid #8888da;
+  height: 600px;
+}
+
+.profile__address {
+  height: 35px;
+}
+
+.profile__street {
+  margin-left: 120px;
+  height: 35px;
+}
+
+.profile__suite {
+  margin-left: 128px;
+  height: 35px;
+}
+
+.profile__city {
+  margin-left: 137px;
+  height: 35px;
+}
+
+.profile__zipcode {
+  margin-left: 105px;
+  height: 35px;
+}
+
+.profile__map {
+  margin-left: 65px;
+}
+
+.profile__direction {
+  margin-left: 400px;
+  margin-top: 170px;
+}
+
+.profile__buttontext {
+  margin-top: -38px;
+  margin-left: 115px;
+}
